@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<factura xmlsn:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation = "xsdEjercicio6.xsd" 
+ numero = "23" fecha = "23-11-2019">
+   <emisor>
+      <local>Libreria Perez</local>
+      <CIF>44555666B</CIF>
+      <telefono>777888999</telefono>
+   </emisor>
+   <cliente>
+      <nombre>Biblioteca Txantrea</nombre>
+      <CIFCli>33111222A</CIFCli>
+      <telefonoCli>333999444</telefonoCli>
+   </cliente>
+   <detallesFactura importe = "85">
+      <articulo codArt = "AW7" tipo = "Libro">
+        <descripcion>Analitica Web 2.0</descripcion>
+        <cantidad>1</cantidad>
+        <oferta>SI</oferta>
+        <pvp>25</pvp>
+      </articulo>
+      <articulo codArt = "CP5" tipo = "DVD">
+        <descripcion>Curso de HTML</descripcion>
+        <cantidad>2</cantidad>
+        <oferta>NO</oferta>
+        <pvp>30</pvp>
+      </articulo>
+   </detallesFactura>
+</factura>
