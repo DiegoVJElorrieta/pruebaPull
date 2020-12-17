@@ -1,2 +1,0 @@
-pruebaPULLJENKINS/TestCalculadora.java
- pruebaPULLJENKINS.TestCalculadora
